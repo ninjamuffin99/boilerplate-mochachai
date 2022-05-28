@@ -70,7 +70,7 @@ Browser.site = "https://freecodecamp-win.herokuapp.com";
 
 suite('Functional Tests with Zombie.js', function() {
 
-    const broswer = new Browser();
+    const browser = new Browser();
     suiteSetup(function(done) {
         return browser.visit('/', done);
     });
