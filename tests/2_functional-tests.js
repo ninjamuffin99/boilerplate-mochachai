@@ -36,6 +36,7 @@ suite('Functional Tests', function() {
             chai
                 .request(server)
                 .put('/travellers')
+                .send({ "surname": ["Colombo"] })
 
             .end(function(err, res) {
                 assert.fail();
