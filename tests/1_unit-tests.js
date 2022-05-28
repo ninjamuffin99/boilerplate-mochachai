@@ -145,7 +145,7 @@ suite('Unit Tests', function() {
         test('#property, #notProperty', function() {
             assert.notProperty(myCar, 'wings', "Cars don't have wings");
             assert.property(airlinePlane, 'engines', 'Planes have engines');
-            assert.propertyVal(myCar, 'wheels', 'Cars have wheels');
+            assert.property(myCar, 'wheels', 'Cars have wheels');
         });
         // #17
         test('#typeOf, #notTypeOf', function() {
